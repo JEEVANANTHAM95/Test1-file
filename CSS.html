@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+</head>
+<body>
+    <h1>CSS DEMO</h1>
+    <!-- CSS:Cascading Style Sheet-->
+    <h2>Different Ways to use CSS</h2>
+    <ol>
+        <li>Inline CSS Styles</li>
+        <li>Internal CSS Styles</li>
+        <li>External CSS Styles</li>
+    </ol>
+    <P style="color:red;">The text will be in Red color</P>
+    <h3 style="font-size: 42px; color: darkblue;">This heading will be larger</h3>
+
+    <a href="http://www.google.com" style="text-decoration: none;">This link will have no underline</a>
+    
+    <div style="text-align: center;">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+             style="width: 200px; border:  dotted green;">    
+    </div>
+    <p>
+      <span style="padding-left: 18px;color: orange;">This</span>will be spaced for first word alone
+    </p>
+
+    <!--Internal CSS Style-->
+
+    <p id="Para1">The text will be in red color.Itelicized</p>
+    <P id="Para2">This text will be in Green Color.Bolder</P>
+    <p id="Para3">This text will be in blue color.Itelicized and bolder</p>
+
+    <style>
+        
+        #para1 {
+            color:red;
+            font-style: italic;
+        }
+
+        #para2 {
+            color: green;
+            font-weight:bold ;
+        }
+
+        #para3 {
+            color: blue;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+
+    </style>
+
+<!-- External CSS Style-->
+     <link rel="Stylesheet" type="text/css" href="./Externalstyle.css">
+
+     <p id="Para1" class="italic">The text will be in red color.Itelicized</p>
+     <P id="Para2" class="bolder">This text will be in Green Color.Bolder</P>
+     <p id="Para3" class="italic bolder">This text will be in blue color.Itelicized and bolder</p>
+
+    <style>
+        .italic {
+            font-style: italic;
+        }
+        .bolder{
+            font-weight: bold;
+        }
+    </style>
+
+<h4 style="color: blue;"
+        id="headingID"
+        class="headingclass">This is my heading</h4>
+<div>First div</div>
+<div>Second div</div>
+
+<img id="Firstimage"src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+style="width: 200px; border:  dotted green;"> 
+
+<img id="Secongimage"src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+style="width: 200px; border:  dotted green;"> 
+
+<img id="Thirdimage"src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+style="width: 200px; border:  dotted green;">    
+</body>
+</html>

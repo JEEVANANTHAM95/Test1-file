@@ -1,0 +1,29 @@
+.cointainer{
+    border: 1px solid black;
+    display: flex;
+    /* height: 300px;
+    align-items: center;
+    justify-content: center; */
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.Green, .Red, .Blue {
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 75px;
+}
+
+.Green{
+    background-color: green;
+    flex-grow: 1;
+}
+
+.Red{
+    background-color: red;
+    flex-grow: 2;
+}
+
+.Blue{
+    background-color: blue;
+}

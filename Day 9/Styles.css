@@ -1,0 +1,7 @@
+.box-model{
+    width: 320px;
+    padding: 30px;
+    border: 5px solid gray;
+    margin: 10px;
+    display: inline-block;
+}

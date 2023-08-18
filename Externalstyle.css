@@ -1,0 +1,28 @@
+#para1 {
+        color:red;
+        font-style: italic;
+        }
+
+#para2 {
+        color: green;
+        font-weight:bold ;
+        }
+
+#para3 {
+        color: blue;
+        font-style: italic;
+        font-weight: bold;
+        }
+#headingID{
+    color:red !important;
+}
+.headingclass{
+    color: brown;
+}
+div {
+    display:inline
+}
+#Firstimage {
+    display:block
+}
+        
